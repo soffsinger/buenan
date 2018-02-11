@@ -206,10 +206,10 @@ section.primera-seccion{
 .nota{
 	padding-top: 80px;
 	padding-bottom: 65px;
-	border-bottom: 1px solid #a9a9a9;
 }
 .nota-content{}
 .nota-content p{
+	text-align: center;
 	margin-bottom: 25px;
 	line-height: 1.7;
 }
@@ -389,33 +389,132 @@ footer .redes a{
 
 /* Blog 04 */
 
+
+
+/*
+	ESTILOS POR CARLOS CARDENAS
+
+	ESTILOS DE NOTICIAS
+
+*/
+
+.noticias .header-noticias{
+	padding: 0 13px;
+}
+.noticias .header-noticias span i{
+	font-size: 1.3em;
+	vertical-align: middle;
+	margin-top: -3px;
+	margin-left: 10px;
+}
+
+.noticias .header-noticias span i.active {
+	color: #73C4D7;
+}
+.noticias .header-noticias select{
+	height: 30px;
+	width: 180px;
+}
+.noticias-content .first .content{
+	height: 280px;
+	background: #777;
+	background-size: 100% 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+.noticias-content .first .meta{
+	position: absolute;
+	bottom: 10px;
+	left: 50px;
+	color: #fff;
+}
+
+.noticias-content .first .meta .data span{
+	font-weight: bold
+}
+
+
+.italic{
+	font-style: italic;
+}
+
+.noticias-content .first .meta p{
+	font-size: 1.2em;
+	margin-top: 2%;
+	font-weight: bold;
+	font-family: arial;
+}
+
+.noticias-content .card{
+
+}
+.noticias-content .art {
+	height: 280px;
+	-webkit-box-shadow: 1px 1px 6px 0 rgba(0,0,0,.2);
+	box-shadow: 1px 1px 6px 0 rgba(0,0,0,.2);
+	overflow: hidden;
+}
+.noticias-content .img{
+	height: 110px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.noticias-content .desc{
+	 padding: 8px 15px 15px;
+}
+.noticias-content .desc h5{
+	color: #73C4D7;
+	font-size: 13px;
+	margin: 3px 0;
+}
+.noticias-content .desc h4{
+	font-family: arial;
+	font-size: 15px;
+	line-height: 1.2;
+	font-weight: bold;
+	color: #444;
+}
+.noticias-content .desc p{
+	font-size: 14px;
+	color: #666;
+	font-family: calibri;
+}
+.noticias-content .desc p{
+}
+
+
+/*
+	ESTILS ESPECIALISTAS
+*/
+
 .especialista{
 	background-color: #F5F5F5;
 	padding-top: 45px;
 	padding-bottom: 90px;
 	width: 100%;
 }
+.especialista .row{
+	margin-top: 3%;
+}
 .especialista h2 {
+	font-family: calibri;
 	text-align: center;
-	font-weight: 300;
+	font-weight: lighter;
 	font-size: 50PX;
+	color: #222;
 }
  
-.especialista .col-sm-3{
-	margin-left: 30px;
-	margin-bottom: 18px;
+
+.especialista  .item{
+	text-align: center;
 }
-.especialista .col-sm-3 .foto-p{
-	display: inline-block;
+.especialista  .item p{
+	font-size: .9em;
+	padding: 0 15%;
+	color: #666;
+}
+.especialista  .item img{
 	width: 120px;
 	height: 120px;
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	vertical-align: middle;
-	margin-right: 12px;
-}
-
-.especialista .col-sm-3 h4{
-	text-align: center;
 }
